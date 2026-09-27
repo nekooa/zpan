@@ -100,9 +100,6 @@ namespace_id = "2802"
 limit = 3600
 period = 60
 
-[[previews.r2_buckets]]
-binding = "PUBLIC_IMAGES"
-bucket_name = "zpan-public-images-staging"
 
 [[previews.send_email]]
 name = "EMAIL"
