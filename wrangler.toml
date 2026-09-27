@@ -58,9 +58,10 @@ max_retries = 3
 # Self-hosted avatar storage. When present, avatars upload straight to R2 (served from
 # /api/avatar-blobs, or from PUBLIC_IMAGES_URL if an R2 custom domain is configured)
 # instead of the ZPan Cloud avatar service.
-[[r2_buckets]]
-binding = "PUBLIC_IMAGES"
-bucket_name = "zpan-public-images"
+
+
+
+
 
 [observability]
 enabled = true
